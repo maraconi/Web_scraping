@@ -18,14 +18,3 @@ for post in posts:
     for word in KEYWORDS:
         if word in text or word in titles:
             print(f'Дата: {date}, Заголовок: {titles}, Ссылка: {url + href}')
-
-
-
-
-# if __name__ == '__main__':
-
-
-
-
-
-
